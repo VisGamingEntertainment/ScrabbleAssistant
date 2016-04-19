@@ -1,5 +1,11 @@
 ﻿Public Class Form1
 
+Public Enum GameModes 'List of modes available
+Classic = 0
+TimeLimit = 1
+ScoreMad = 2
+Challenge = 3
+End Enum
     Private Sub Opt1_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles Opt1.CheckedChanged
         If Opt1.Checked = True Then
             TxtName2.Enabled = False
@@ -157,6 +163,7 @@
         'Time Attack
         'Point Madness
         'Challenge Mode
+'TODO assign modes to the next form
         Select Case ComboBox1.Text
             Case "Classic Scrabble"
                 Label14.Text = "A classic game of Scrabble for everyone which uses the usual rules of Scrabble. Not that fun, but it's a good start"
