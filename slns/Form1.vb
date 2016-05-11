@@ -166,13 +166,13 @@ End Enum
 'TODO assign modes to the next form
         Select Case ComboBox1.Text
             Case "Classic Scrabble"
-                Label14.Text = "A classic game of Scrabble for everyone which uses the usual rules of Scrabble. Not that fun, but it's a good start"
+                Label14.Text = "A classic game of Scrabble for everyone which uses the usual rules of Scrabble, available on the official website. This app will do nothing apart from counting your scores in this mode. Not that fun, but it's a good start for beginners who just started playing Scrabble."
             Case "Time Attack"
-                Label14.Text = "Play Scrabble with a time limit on each move! The game can also be configured to have its own time limit. Useful for Quick plays!"
+                Label14.Text = "Play Classic Scrabble with a time limit on each move! The move will be considered invalid if the time runs out. The game can also be configured to have its own time limit. Useful for Quick plays when game time is short!"
             Case "Point Madness"
-                Label14.Text = "Adds new rules regarding how to earn points in the game. For those who love to earn numbers!"
+                Label14.Text = "Adds new rules regarding how to earn points in the game for those who love to earn numbers! Plays just like Classic Scrabble"
             Case "Challenge Mode"
-                Label14.Text = "Challenges just for Scrabble!"
+                Label14.Text = "Have a Scrabble board, but bored with the usual Scrabble play? This mode adds new playing styles and a whole new plays. Challenges just for Scrabble!"
         End Select
     End Sub
 End Class
